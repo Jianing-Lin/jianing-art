@@ -1,156 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Jianing Lin</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Pediophobia – Jianing Lin</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 
-<body>
+<body class="dark-project">
 
-  <header class="nav">
-    <div class="logo">JIANING LIN</div>
+<!-- HERO VIDEO（沉浸，无声） -->
+<section class="video-hero">
+  <iframe 
+  src="https://www.youtube.com/embed/Uz-D9VIk7zU?autoplay=1&mute=1&loop=1&playlist=Uz-D9VIk7zU&controls=0&modestbranding=1"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen>
+</iframe>
 
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div class="video-overlay">
+    <h1>Pediophobia</h1>
+    <p>Interactive Installation</p>
+  </div>
+</section>
 
-  <section class="hero">
-    <div class="hero-overlay"></div>
+<!-- CONTENT -->
+<section class="project-content">
 
-    <div class="hero-center">
-      <h1 class="hero-name fade-in">JIANING LIN</h1>
+  <div class="project-inner">
+
+    <!-- INTRO -->
+    <p class="intro-text">
+      Many people have something they are afraid of—spiders, hospitals, heights, or dolls. For me, it has always been dolls. This kind of fear is often overlooked, and rarely do people consider how it might be addressed.
+    </p>
+
+    <p class="intro-text">
+      While studying education, I learned about exposure therapy, a method that gradually reduces fear through controlled and repeated confrontation. I initially explored this idea through more common fears, but without personally feeling that fear, it was difficult to evaluate the effectiveness of the design.
+    </p>
+
+    <p class="intro-text">
+      Eventually, I returned to my own fear. From looking at images of dolls, to touching them, to designing and assembling my own models, and placing them throughout my living environment, I went through a continuous process of exposure. Through building this installation, I experienced a real process of desensitization.
+    </p>
+
+    <!-- FINAL IMAGES（横向滚动） -->
+    <div class="horizontal-scroll">
+      <img src="images/pediophobia-effect1.jpg">
+      <img src="images/pediophobia-effect2.jpg">
+      <img src="images/pediophobia-effect3.jpg">
+      <img src="images/pediophobia-effect4.jpg">
     </div>
 
-    <div class="hero-bottom fade-in delay-1">
-      <p>Design for the Real World</p>
+    <!-- PROCESS -->
+    <h2>Process</h2>
+
+    <div class="process-column">
+      <img src="images/model.jpg">
+      <img src="images/process.jpg">
     </div>
-  </section>
 
-  <section id="work" class="work-panel">
-    <div class="work-inner">
-      <h2>Selected Work</h2>
+    <!-- VIDEO（可控，有声音） -->
+    <h2>Video</h2>
 
-      <div class="projects">
-
-        <div class="project">
-         <a href="pediophobia/">
-            <img src="images/pediophobia.jpg" alt="Pediophobia">
-            <h3>Pediophobia</h3>
-            <p>Interactive Installation</p>
-          </a>
-        </div>
-
-        <div class="project">
-          <a href="sixfloors/">
-            <img src="images/sixfloors.jpg" alt="Six Floors Up">
-            <h3>Six Floors Up</h3>
-            <p>Interactive Web Experience</p>
-          </a>
-        </div>
-
-        <div class="project">
-          <a href="safestep/">
-            <img src="images/safestep.jpg" alt="SafeStep">
-            <h3>SafeStep</h3>
-            <p>Assistive Walker Design</p>
-          </a>
-        </div>
-
-        <div class="project">
-          <a href="manifesto/">
-            <img src="images/manifesto.jpg" alt="Manifesto">
-            <h3>Manifesto</h3>
-            <p>Interactive Installation</p>
-          </a>
-        </div>
-
-        <div class="project">
-          <a href="demolition/">
-            <img src="images/demolition.jpg" alt="Urban Demolition App">
-            <h3>Urban Demolition App</h3>
-            <p>UI/UX Design</p>
-          </a>
-        </div>
-
-        <div class="project">
-          <a href="seventhsense/">
-            <img src="images/seventhsense.jpg" alt="The Seventh Sense">
-            <h3>The Seventh Sense</h3>
-            <p>Immersive Installation</p>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-  <section id="about" class="content-section">
-    <div class="content-inner">
-      <h2>About</h2>
-
-      <p>
-        I grew up spending time in hospitals where my mother worked. Later, through volunteer work in nursing homes and schools for children with autism, I began to realize that many groups in society are not easily heard or represented.
-      </p>
-
-      <p>
-        Inspired by Victor Papanek’s idea of designing for the real world, I believe design should respond to real human needs and bring visibility to overlooked experiences.
-      </p>
+    <div class="video-full">
+      <iframe 
+  src="https://www.youtube.com/embed/Uz-D9VIk7zU"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
     </div>
-  </section>
 
-  <section id="cv" class="content-section">
-    <div class="content-inner">
-      <h2>CV</h2>
+  </div>
 
-      <div class="cv-grid">
-        <div>
-          <h3>Education</h3>
-          <p>NYU ITP</p>
-          <p>Digital Media Arts</p>
-        </div>
-
-        <div>
-          <h3>Skills</h3>
-          <p>Interaction Design</p>
-          <p>UI/UX Design</p>
-          <p>Physical Computing</p>
-          <p>Research</p>
-        </div>
-
-        <div>
-          <h3>Tools</h3>
-          <p>Figma</p>
-          <p>TouchDesigner</p>
-          <p>Arduino</p>
-          <p>Blender</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
- <footer id="contact">
-  <p class="footer-links">
-    <a href="mailto:jl17255@nyu.edu">Email</a>
-    <span> | </span>
-    <a href="https://www.linkedin.com/in/jianing-lin-8425b63b3" target="_blank">LinkedIn</a>
-    <span> | </span>
-    <a href="resume.pdf" target="_blank">CV</a>
-  </p>
-</footer>
-
-  <!-- ✅ 新增 JS 引入 -->
-  <script src="script.js"></script>
+</section>
 
 </body>
-
 </html>
